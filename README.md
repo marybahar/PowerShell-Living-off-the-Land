@@ -6,4 +6,4 @@ To validate the effectiveness of the Sysmon integration, I simulated a common at
 * **Technique:** Used `powershell.exe` with `-ExecutionPolicy Bypass` and `-WindowStyle Hidden`.
 * **Detection Logic:** Created a KQL query filtering for **Event ID 1** (Process Creation) where the command line contained suspicious flags.
 * **Result:** Successfully identified the source user, the parent process, and the exact timestamp of the execution.
-<img width="1625" height="706" alt="image" src="https://github.com/user-attachments/assets/317d24c8-b920-4abc-a37a-9ed695577b80" />
+<img width="1906" height="847" alt="image" src="https://github.com/user-attachments/assets/b285dac2-20ed-4cae-a9cb-af7b9cad30cc" />
